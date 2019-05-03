@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#result{
+  width: 100%;
+  height: 45px;
+}
+
+.screen {
+  width: 350px;
+  font-size: 40px;
+  text-align: right;
+  background-color: white;
+  border: 1px solid black
+}
+
+
+.numbers{
+  max-width: 350px;
+  margin: auto;
+}
+#reset {
+  width: 49.2%;
+  padding: 10px;
+}
+
+.zero{
+  width: 74.5%;
+  padding: 10px;
+}
+
+.number{
+padding: 10px;
+  width: 24%;
+  margin: 0;
+}
+
+#delete, #division, #multiply, #minus, #plus, #equal {
+  width: 24%;
+  margin: 0;
+}
